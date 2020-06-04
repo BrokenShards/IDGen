@@ -1,0 +1,22 @@
+﻿#
+# Test file for IDGen containing name title post-fixes
+#
+
+the great
+the limp
+the confused
+
+destroyer of pussy
+eater of dick
+
+
+#####
+# This pack should contain these words as written.
+#
+# the great
+# the limp
+# the confused
+# destroyer of pussy
+# eater of dick
+#
+#####

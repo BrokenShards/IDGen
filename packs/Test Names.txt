@@ -1,0 +1,28 @@
+﻿#
+# Test file for IDGen containing names
+#
+
+Bob
+Randy
+
+# This line is a comment and should not be read as a word in the pack.
+
+
+# Then testing multiple empty lines
+
+Jemma
+
+Sue  # This is an inline comment so Sue should appear in the pack without this comment after it.
+     Ryan    # The surrounding spaces should be trimmed and appear as just "Ryan".
+
+
+#####
+# This pack should contain these words as written.
+#
+# Bob
+# Randy
+# Jemma
+# Sue
+# Ryan
+#
+#####
